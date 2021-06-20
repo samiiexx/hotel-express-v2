@@ -9,9 +9,316 @@
         ></script>
         <link rel="shortcut icon" href="images/logo.png" type="image/png" />
         <link rel="stylesheet" href="css/style.css" />
-        <title>Project Title</title>
+        <title>Hotel Express V2</title>
     </head>
+
     <body>
+        <div class="page-container">
+            <header class="header">
+                <img src="images/logo.png" alt="" class="logo" />
+
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        class="search-input"
+                        placeholder="Search hotels"
+                    />
+                    <button class="search-button">
+                        <svg class="search-icon">
+                            <use
+                                xlink:href="images/sprite.svg#icon-magnifying-glass"
+                            ></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav-icon-box">
+                        <svg class="user-nav-icon">
+                            <use
+                                xlink:href="images/sprite.svg#icon-bookmark"
+                            ></use>
+                        </svg>
+                        <span class="user-nav-notification">23</span>
+                    </div>
+                    <div class="user-nav-icon-box">
+                        <svg class="user-nav-icon">
+                            <use xlink:href="images/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav-notification">13</span>
+                    </div>
+                    <div class="user-nav-user">
+                        <img
+                            src="images/person.jpg"
+                            alt=""
+                            class="user-nav-user-photo"
+                        />
+                        <span class="user-nav-user-name">Favour</span>
+                    </div>
+                </nav>
+            </header>
+
+            <section class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav-item side-nav-item-active">
+                            <a href="#" class="side-nav-link">
+                                <svg class="side-nav-icon">
+                                    <use
+                                        xlink:href="images/sprite.svg#icon-home"
+                                    ></use>
+                                    <span>Hotel</span>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="#" class="side-nav-link">
+                                <svg class="side-nav-icon">
+                                    <use
+                                        xlink:href="images/sprite.svg#icon-key"
+                                    ></use>
+                                    <span>Car Rental</span>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="#" class="side-nav-link">
+                                <svg class="side-nav-icon">
+                                    <use
+                                        xlink:href="images/sprite.svg#icon-aircraft-take-off"
+                                    ></use>
+                                    <span>Flight</span>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="#" class="side-nav-link">
+                                <svg class="side-nav-icon">
+                                    <use
+                                        xlink:href="images/sprite.svg#icon-map"
+                                    ></use>
+                                    <span>Tours</span>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="legal">
+                        Copyright &copy; <span id="year"></span> Favour Samuel
+                    </p>
+                </nav>
+
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery-item">
+                            <img
+                                src="images/hotel_astro_resort.jpg"
+                                alt=""
+                                class="gallery-photo"
+                            />
+                        </figure>
+                        <figure class="gallery-item">
+                            <img
+                                src="images/hotel_the_enchanted_garden.jpg"
+                                alt=""
+                                class="gallery-photo"
+                            />
+                        </figure>
+                        <figure class="gallery-item">
+                            <img
+                                src="images/hotel_the_paradise.jpg"
+                                alt=""
+                                class="gallery-photo"
+                            />
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview-heading">Hotel Express</h1>
+                        <div class="overview-stars">
+                            <svg class="overview-icon-star">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview-icon-star">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview-icon-star">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview-icon-star">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview-icon-star">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview-location">
+                            <svg class="overview-icon-location">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-location-pin"
+                                ></use>
+                            </svg>
+                            <a href="#" class="btn btn-inline"
+                                >Abuja, Nigeria</a
+                            >
+                        </div>
+
+                        <div class="overview-rating">
+                            <div class="overview-rating-average">8.6</div>
+                            <div class="overview-rating-count">864 votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Animi nisi dignissimos debitis
+                                ratione sapiente saepe. Accusantium cumque,
+                                quas, ut corporis incidunt deserunt quae
+                                architecto voluptate.
+                            </p>
+                            <p class="paragraph">
+                                Accusantium cumque, quas, ut corporis incidunt
+                                deserunt quae architecto voluptate delectus,
+                                inventore iure aliquid aliquam.
+                            </p>
+
+                            <ul class="list">
+                                <li class="list-item">Close to the beach</li>
+                                <li class="list-item">Breakfast included</li>
+                                <li class="list-item">Free airport shuttle</li>
+                                <li class="list-item">
+                                    Free wifi in all rooms
+                                </li>
+                                <li class="list-item">Air conditioning</li>
+                                <li class="list-item">Pets allowed</li>
+                                <li class="list-item">
+                                    We speak all languages
+                                </li>
+                                <li class="list-item">Perfect for families</li>
+                            </ul>
+
+                            <div class="recommend">
+                                <p class="recommend-count">
+                                    Favour and 2 other friends recommend this
+                                    hotel.
+                                </p>
+
+                                <div class="recommend-friends">
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="Friend 1"
+                                        class="recommend-photo"
+                                    />
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="Friend 2"
+                                        class="recommend-photo"
+                                    />
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="Friend 3"
+                                        class="recommend-photo"
+                                    />
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="Friend 4"
+                                        class="recommend-photo"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review-text">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Fuga doloremque architecto
+                                    dicta animi, totam, itaque officia ex.
+                                </blockquote>
+
+                                <figcaption class="review-user">
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="User 1"
+                                        class="review-photo"
+                                    />
+                                    <div class="review-user-box">
+                                        <p class="review-user-name">
+                                            Nick Smith
+                                        </p>
+                                        <p class="review-user-date">
+                                            June 19th, 2021
+                                        </p>
+                                    </div>
+                                    <div class="review-rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review-text">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Fuga doloremque architecto
+                                    dicta animi.
+                                </blockquote>
+
+                                <figcaption class="review-user">
+                                    <img
+                                        src="images/person.jpg"
+                                        alt="User 2"
+                                        class="review-photo"
+                                    />
+                                    <div class="review-user-box">
+                                        <p class="review-user-name">
+                                            Mary Thomas
+                                        </p>
+                                        <p class="review-user-date">
+                                            June 19th 2021
+                                        </p>
+                                    </div>
+                                    <div class="review-rating">9.3</div>
+                                </figcaption>
+                            </figure>
+
+                            <a href="#" class="btn btn-inline">
+                                Show all <span>&rarr;</span>
+                            </a>
+                        </div>
+
+                        <div class="cta">
+                            <h2 class="cta-book-now">
+                                Good news! We have 3 free rooms within your
+                                budget for your selected dates!
+                            </h2>
+                            <button class="btn">
+                                <span class="btn-visible">Book now</span>
+                                <span class="btn-invisible"
+                                    >Only 3 rooms left</span
+                                >
+                            </button>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </div>
+
+        <!-- Main Scripts -->
+        <script src="js/jquery-3.5.1.js"></script>
         <script src="js/index.js"></script>
     </body>
 </html>

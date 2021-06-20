@@ -1,22 +1,32 @@
 /*=============================================
 =            Theme            =
 =============================================*/
-
 /* Colors */
-$primary: rgb(250, 174, 123);
-$secondary: rgb(204, 139, 121);
+$primary: #0fa7e8;
+$secondary: #8ac0d8;
 $success: #06af52;
 $danger: #ff6347;
 $warning: #ffc107;
 $light: #f8f9fa;
 $dark: #060606;
-$grey: #565655;
-$white: #ffffff;
+$white: #efefef;
+
+$grey-light-1: #faf9f9;
+$grey-light-2: #f4f2f2;
+$grey-light-3: #f0eeee;
+$grey-light-4: #ccc;
+
+$grey-dark-1: #333;
+$grey-dark-2: #565655;
+$grey-dark-3: #999;
+
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 
 /* Typography */
-$font-family: "Josefin Sans", sans-serif;
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Courgette", cursive;
 $font-normal: 400;
-$font-bold: 700;
+$font-bold: 800;
 
 /*=====  End of Theme  ======*/
 
@@ -43,6 +53,7 @@ $slow: 0.6s ease-out;
 /*=============================================
 =            Gradients            =
 =============================================*/
+$gradient-color: linear-gradient(to right, $secondary, $primary);
 $gradient-0: rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7);
 $gradient-1: rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3);
 $gradient-2: linear-gradient(
@@ -52,3 +63,26 @@ $gradient-2: linear-gradient(
 );
 $gradient-3: rgba($secondary, 0.5), rgba($primary, 0.5);
 /*=====  End of Gradients  ======*/
+
+// From Previous Project
+
+/* Colors */
+
+// $white: #ffffff;
+// $offwhite: #f2f6f9;
+// $gray: #a5a5a5;
+// $dark: #2d2c2c;
+// $deep-blue: #273952;
+// $blue-transparent: rgba(17,
+// 209,
+// 194,
+// .7);
+// $blue-transparent-alt: rgba(17,
+// 209,
+// 194,
+// .2);
+// $blue-light: #8AC0D8;
+// $blue-solid: #0fa7e8;
+// $gradient-color-alt: linear-gradient(to right,
+// $blue-solid,
+// $blue-light);
