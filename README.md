@@ -1,7 +1,7 @@
 # Hotel Express V2
-This is a flexbox project website.
+This is a flexbox project website from the Advanced CSS and SASS course.
 
-![Website Title](screenshot.jpg)
+![Hotel Express V2](screenshot.jpg)
 
 ## Built With
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
@@ -55,6 +55,6 @@ gulp image
 - Favour Samuel (@samiiexx)
 
 ## License
-Copyright (c) 2021 StarBox Technologies Ltd.
+Copyright (c) 2021 Favour Samuel.
 
 For enquiries please contact us at [favour@starboxtech.com](mailto:favour@starboxtech.com).
